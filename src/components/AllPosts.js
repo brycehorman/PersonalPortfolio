@@ -26,11 +26,11 @@ export default function AllPosts() {
   }, []);
 
   return (
-    <div className="bg-green-100 min-h-screen p-12">
+    <div className=" min-h-screen bg-blue-100 p-12">
       <div className="container mx-auto">
-        <h2 className="text-5xl flex justify-center cursive">Blog Posts</h2>
+        <h1 className="text-5xl flex justify-center allPostsTitle text-blue-500">BLOG POSTS</h1>
         <h3 className="text-lg text-gray-600 flex justify-center mb-12 cursive">
-          Welcome to my blog posts page!
+          Click the links below to read about the projects that I have completed.
         </h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {allPostsData &&
@@ -38,7 +38,7 @@ export default function AllPosts() {
               <Link to={"/" + post.slug.current} key={post.slug.current}>
                 <span
                   className="block h-64 relative rounded shadow leading-snug bg-white
-                      border-l-8 border-green-400"
+                      border-l-8 border-blue-500"
                   key={index}
                 >
                   <img
@@ -50,12 +50,12 @@ export default function AllPosts() {
                     className="block relative h-full flex justify-end items-end pr
                       -4 pb-4"
                   >
-                    <h2
-                      className="text-gray-800 text-lg font-bold px-3 py-4 bg-red-700
-                        text-red-100 bg-opacity-75 rounded"
+                    <h1
+                      className="text-gray-800 text-lg font-bold px-3 py-4 bg-blue-500
+                        text-blue-100 bg-opacity-75 rounded"
                     >
                       {post.title}
-                    </h2>
+                    </h1>
                   </span>
                 </span>
               </Link>

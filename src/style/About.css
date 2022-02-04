@@ -1,0 +1,66 @@
+.box{
+    width: 80%;
+    margin: auto;
+   
+}
+
+.image{
+    margin: auto;
+}
+
+.imageCircle{
+    border-radius: 5000px;
+    height: 500px;
+}
+
+.summary{
+    text-align: left;
+    margin-left: 1rem;
+   
+}
+
+.aboutTitle{
+    color: rgb(59 130 246);
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.allPostsTitle{
+    color: rgb(59 130 246);
+    font-weight: bold;
+}
+
+h2{
+    font-style: italic;
+}
+
+.list{
+    list-style-type: disc;
+    list-style-position: inside !important;
+    font-weight: bold;
+}
+
+.list2{
+    list-style-type: disc;
+    list-style-position: inside !important;
+    margin-left: 25px;
+}
+
+.nested{
+    list-style-type: circle;
+    list-style-position: inside !important;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+
+.imageCaption{
+    justify-content: center;
+    text-align: center;
+}
+
+div{
+    font-family: 'Supermercado One' 'sans-serif';
+    
+}
+

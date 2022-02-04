@@ -39,20 +39,20 @@ export default function OnePost() {
   if (!postData) return <div>Loading...</div>;
 
   return (
-    <div className="bg-gray-200 min-h-screen p-12">
-      <div className="container shadow-lg mx-auto bg-green-100 rounded-lg">
+    <div className="min-h-screen bg-blue-100 p-12">
+      <div className="container shadow-lg mx-auto bg-white rounded-lg">
         <div className="relative">
           <div className="absolute h-full w-full flex items-center justify-center p-8">
             {/* Title Section */}
             <div className="bg-white bg-opacity-75 rounded p-12">
-              <h2 className="cursive text-3xl lg:text-6xl mb-4">
+              <h1 className="text-3xl lg:text-6xl mb-4">
                 {postData.title}
-              </h2>
+              </h1>
               <div className="flex justify-center text-gray-800">
                 <img
                   src={urlFor(postData.authorImage).url()}
                   className="w-10 h-10 rounded-full"
-                  alt="Author is Kap"
+                  alt="Author is Bryce Horman"
                 />
                 <h4 className="cursive flex items-center pl-2 text-2xl">
                   {postData.name}
