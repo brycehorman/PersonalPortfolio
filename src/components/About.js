@@ -6,8 +6,8 @@ import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import headshot from '../images/Headshot2.jpg';
-import croatia from '../images/Croatia.JPG';
-import maine from '../images/Maine.JPG';
+import croatia from '../images/Croatia.jpg';
+import maine from '../images/Maine.jpg';
 import graduation from '../images/graduation.jpg';
 
 
