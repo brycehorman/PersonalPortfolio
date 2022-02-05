@@ -6,6 +6,11 @@ import About from "./components/About.js";
 import Navbar from "./components/navbar.js";
 import Home from "./components/Home.js"
 import Contact from "./components/Contact.js";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faCheckSquare, faCoffee)
 
 function App() {
   return (

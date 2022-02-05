@@ -28,7 +28,7 @@ export default function AllPosts() {
   return (
     <div className=" min-h-screen bg-blue-100 p-12">
       <div className="container mx-auto">
-        <h1 className="text-5xl flex justify-center allPostsTitle text-blue-500">BLOG POSTS</h1>
+        <h1 className="text-5xl flex justify-center font-effect-emboss text-blue-500">BLOG POSTS</h1>
         <h3 className="text-lg text-gray-600 flex justify-center mb-12 cursive">
           Click the links below to read about the projects that I have completed.
         </h3>
