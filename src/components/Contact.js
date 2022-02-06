@@ -6,7 +6,7 @@ export default function Contact(){
     return(
         <div className="min-h-screen bg-blue-100 p-12">
             <div className="grid place-items-center">
-                <div className="text-6xl font-effect-emboss text-blue-500">brycehorman@gmail.com</div>
+                <div className="text-lg lg:text-6xl font-effect-emboss text-blue-500">brycehorman@gmail.com</div>
                 <span className='socialMedia m-4'>
                     <a className='m-2' href="https://www.linkedin.com/in/bryce-horman/">
                         <FontAwesomeIcon icon={['fab', 'linkedin']} className='hover:text-blue-400' size="4x" />

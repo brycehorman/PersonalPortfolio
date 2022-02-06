@@ -26,14 +26,14 @@ export default function About(){
     return(
         <div className='min-h-screen bg-blue-100 p-12'>
             <Box class="box" sx={{ flexGrow: 1 }}>
-                <Grid container spacing={2}>
+                <Grid container columns={{ xs: 6, sm: 12 }} spacing={1}>
                     <Grid item xs={6}>
                             <img class="image" src={headshot}></img>
                         
                     </Grid>
                     <Grid item xs={6}>
                         <Item>
-                            <div className='aboutTitle'>
+                            <div className='aboutTitle text-sm lg:text-2xl'>
                                 SUMMARY
                             </div>
                             <div class="summary"> 

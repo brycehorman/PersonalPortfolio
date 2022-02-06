@@ -1,5 +1,5 @@
 .box{
-    width: 80%;
+    width: 95%;
     margin: auto;
    
 }
@@ -10,7 +10,7 @@
 
 .imageCircle{
     border-radius: 5000px;
-    height: 500px;
+    /* height: 25rem; */
 }
 
 .summary{
@@ -21,7 +21,6 @@
 
 .aboutTitle{
     color: rgb(59 130 246);
-    font-size: xx-large;
     font-weight: bold;
     margin-bottom: 25px;
 }
