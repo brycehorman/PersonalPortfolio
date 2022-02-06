@@ -18,6 +18,7 @@ export default function Contact(){
                         <FontAwesomeIcon icon={['fab', 'medium']} className='hover:text-blue-400' size="4x" />
                     </a>
                 </span>
+                <div className='text-6xl margin-4'>BH</div>
                
             </div>
 
