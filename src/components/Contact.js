@@ -17,9 +17,7 @@ export default function Contact(){
                     <a className='m-2' href="https://medium.com/@brycehorman">
                         <FontAwesomeIcon icon={['fab', 'medium']} className='hover:text-blue-400' size="4x" />
                     </a>
-                </span>
-                <div className='text-6xl margin-4'>BH</div>
-               
+                </span>               
             </div>
 
         </div>
