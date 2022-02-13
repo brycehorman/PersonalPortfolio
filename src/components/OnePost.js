@@ -45,7 +45,7 @@ export default function OnePost() {
           <div className="absolute h-full w-full flex items-center justify-center p-8">
             {/* Title Section */}
             <div className="bg-white bg-opacity-75 rounded p-12">
-              <h1 className="text-3xl lg:text-6xl mb-4">
+              <h1 className="text-3xl lg:text-6xl mb-4 readable">
                 {postData.title}
               </h1>
               <div className="flex justify-center text-gray-800">
@@ -67,8 +67,9 @@ export default function OnePost() {
             style={{ height: "400px" }}
           />
         </div>
-        <div className="px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full">
+        <div className="readable px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full">
           <BlockContent
+            className="readable"
             blocks={postData.body}
             projectId={sanityClient.clientConfig.projectId}
             dataset={sanityClient.clientConfig.dataset}

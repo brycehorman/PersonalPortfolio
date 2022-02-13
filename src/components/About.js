@@ -33,10 +33,10 @@ export default function About(){
                     </Grid>
                     <Grid item xs={6}>
                         <Item>
-                            <div className='aboutTitle text-sm lg:text-2xl'>
+                            <div className='aboutTitle text-sm lg:text-4xl'>
                                 SUMMARY
                             </div>
-                            <div className="summary"> 
+                            <div className="summary readable"> 
                             <b>Bryce</b> is a Software Engineer currently working at CapTech Consulting in Richmond, Virginia, doing mostly front-end 
                             web development. He graduated from the University of Richmond in May of 2021 with a B.S.B.A in Business Administration 
                             and Computer Science and concentrations in Finance and Business Analytics. Bryce is ambitious and career oriented and has
@@ -62,10 +62,10 @@ export default function About(){
                     
                     <Grid item xs={6}>
                         <Item>
-                            <div className='aboutTitle'>
+                            <div className='aboutTitle text-sm lg:text-4xl'>
                                 SKILLS
                             </div>
-                            <div class="summary paragraph"> 
+                            <div class="summary readable paragraph"> 
                                 <ul class="list">
                                     <li>
                                         Web Development
@@ -130,22 +130,22 @@ export default function About(){
                     <Grid item xs={6}>
                             <div className='imageCaption'>
                                 <img class="image" src={croatia}></img>
-                                <h2>Bryce (left) and friends in Dubrovnik, Croatia (Fall 2019)</h2>
+                                <h2 className='text-blue-500 readable'>Bryce (left) and friends in Dubrovnik, Croatia (Fall 2019)</h2>
                             </div>
                     </Grid>
 
                     <Grid item xs={6}>
                         <div className='imageCaption'>
-                            <img class="image" src={maine}></img>
-                            <h2>Bryce (left) and his family in Bar Harbor, Maine (Summer 2021)</h2>
+                            <img class="image text-blue-500 readable" src={maine}></img>
+                            <h2 className='text-blue-500 readable'>Bryce (left) and his family in Bar Harbor, Maine (Summer 2021)</h2>
                         </div>
                     </Grid>
                     <Grid item xs={6}>
                         <Item>
-                            <div className='aboutTitle'>
+                            <div className='aboutTitle text-sm lg:text-4xl'>
                                 EXPERIENCE
                             </div>
-                            <div class="summary"> 
+                            <div class="summary readable"> 
                             CapTech Consulting (August 2021 - Present)
                             <br></br>
                             <i>Software Engineer</i>
@@ -167,10 +167,10 @@ export default function About(){
                     
                     <Grid item xs={6}>
                         <Item>
-                            <div className='aboutTitle'>
+                            <div className='aboutTitle text-sm lg:text-4xl'>
                                 EDUCATION
                             </div>
-                            <div class="summary"> 
+                            <div class="summary readable"> 
                             University of Richmond '21
                             <br></br>
                             B.S.B.A in Business Administration and Computer Science
@@ -184,7 +184,7 @@ export default function About(){
                     <Grid item xs={6}>
                             <div className='imageCaption'>
                                 <img class="image" src={graduation}></img>
-                                <h2>Bryce (middle) and his family at his graduation from the University of Richmond (May 2021)</h2>
+                                <h2 className='text-blue-500 readable'>Bryce (middle) and his family at his graduation from the University of Richmond (May 2021)</h2>
                             </div>
                     </Grid>
                 </Grid>

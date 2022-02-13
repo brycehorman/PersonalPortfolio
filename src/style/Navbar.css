@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
   }
   
   .item {
@@ -12,13 +12,15 @@
   
   .item a {
     display: block;
-    color: white;
+    color: #2196F3;
     text-align: center;
     padding: 14px 40px;
     text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
   }
   
   /* Change the link color to #111 (black) on hover */
   .item a:hover {
-    background-color: #111;
+    background-color: #333;
   }

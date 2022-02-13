@@ -28,7 +28,7 @@ export default function AllPosts() {
   return (
     <div className=" min-h-screen bg-black p-12">
       <div className="container mx-auto">
-        <h1 className="text-5xl flex justify-center font-effect-emboss text-blue-500">BLOG POSTS</h1>
+        <h1 className="text-5xl flex justify-center text-blue-500">Blog Posts</h1>
         <h3 className="text-lg text-gray-600 flex justify-center mb-12 cursive">
           Click the links below to read about the projects that I have completed.
         </h3>
@@ -52,7 +52,7 @@ export default function AllPosts() {
                   >
                     <h1
                       className="text-gray-800 text-lg font-bold px-3 py-4 bg-blue-500
-                        text-blue-100 bg-opacity-75 rounded"
+                        text-blue-100 bg-opacity-75 rounded readable"
                     >
                       {post.title}
                     </h1>
