@@ -24,7 +24,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function About(){
     return(
-        <div className='min-h-screen bg-blue-100 p-12'>
+        <div className='min-h-screen bg-black p-12'>
             <Box class="box" sx={{ flexGrow: 1 }}>
                 <Grid container columns={{ xs: 6, sm: 12 }} spacing={1}>
                     <Grid item xs={6}>
@@ -36,7 +36,7 @@ export default function About(){
                             <div className='aboutTitle text-sm lg:text-2xl'>
                                 SUMMARY
                             </div>
-                            <div class="summary"> 
+                            <div className="summary"> 
                             <b>Bryce</b> is a Software Engineer currently working at CapTech Consulting in Richmond, Virginia, doing mostly front-end 
                             web development. He graduated from the University of Richmond in May of 2021 with a B.S.B.A in Business Administration 
                             and Computer Science and concentrations in Finance and Business Analytics. Bryce is ambitious and career oriented and has

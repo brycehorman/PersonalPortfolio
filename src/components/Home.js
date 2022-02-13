@@ -1,9 +1,10 @@
 import headshot from '../images/Headshot2.jpg';
 
 
+
 export default function Home(){
     return(
-        <div className="min-h-screen bg-blue-100 p-12">
+        <div className="min-h-screen bg-black p-12">
             <div className="grid w-full place-items-center">
                 <div className="text-3xl lg:text-6xl text-blue-500 font-effect-emboss">Bryce Horman</div>
                
